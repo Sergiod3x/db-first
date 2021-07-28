@@ -1,0 +1,15 @@
+name: auto
+
+Column                   Type                          Attributes                        Index    
+id                       INT UNSIGNED                  AUTO_INCREMENT,  NOTNULL          PRIMARY KEY
+modello                  VARCHAR(50)                   NOTNULL
+marchio                  VARCHAR(50)                   NOTNULL                           INDEX
+anno_produzione          YEAR                          NOTNULL
+prezzo                   DOUBLE(6,2)                   NOTNULL
+segmento                 VARCHAR(50)                   NOTNULL                           INDEX
+cilindrata               DOUBLE(4,1)                   NOTNULL
+potenza                  DOUBLE(4,2)                   NOTNULL
+accellerazione           VARCHAR(50)                   NOTNULL
+peso                     SMALLINT UNSIGNED             NOTNULL
+difetti                  TEXT                          NOTNULL
+n_proprietari            TINYINT UNSIGNED              DEFAULT(0)
