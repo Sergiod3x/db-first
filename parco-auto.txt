@@ -1,7 +1,7 @@
 name: auto
 
 Column                   Type                          Attributes                        Index    
-id                       INT UNSIGNED                  AUTO_INCREMENT,  NOTNULL          PRIMARY KEY
+id                       BIGINT                        AUTO_INCREMENT,  NOTNULL          PRIMARY KEY
 modello                  VARCHAR(50)                   NOTNULL
 marchio                  VARCHAR(50)                   NOTNULL                           INDEX
 anno_produzione          YEAR                          NOTNULL
